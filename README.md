@@ -2,12 +2,13 @@
 Repo containing the source from my OpenGL Game Engine tutorials using SDL &amp; Visual Studio Code
 
 # Table of Contents
-1. [Dependencies](#dependencies)
+1. [Required Tools](#tools)
+2. [Application Dependencies](#dependencies)
     1. [MinGW/GCC](#gcc)
     2. [SDL2](#sdl)
-2. [Documentation](#documentation)
+3. [Documentation](#documentation)
 
-## Required Tools
+## Required Tools <a name="tools"></a>
 
 1. [Visual Studio Code](https://code.visualstudio.com/)
 2. [Git/Github](https://desktop.github.com/)
@@ -17,7 +18,7 @@ Repo containing the source from my OpenGL Game Engine tutorials using SDL &amp; 
 4. [Linux (Ubuntu)](https://www.ubuntu.com/download/desktop)
 
 
-## Dependencies <a name="dependencies"></a>
+## Application Dependencies <a name="dependencies"></a>
 
 ### 1. MinGW/GNU Compiler Collection (GCC) <a name="gcc"></a>
 #### Linux: Debian & Ubuntu 14.04 and above: 
