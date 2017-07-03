@@ -1,5 +1,7 @@
 #include "common.h"
 
+bool isRunning = true;
+
 int main(int argc, char* argv[])
 {
     //Error Checking/Initialisation
@@ -36,14 +38,14 @@ int main(int argc, char* argv[])
     else
         SDL_Log("Window Successful Generated");
 
+
     //Map OpenGL Context to Window
     SDL_GLContext glContext = SDL_GL_CreateContext(window);
 
+    //Render
+
     //Swap Render Buffers
     SDL_GL_SwapWindow(window);
-
-    //Keep window open for 5 seconds
-    SDL_Delay(3000);
 
     //Free up resources
     SDL_GL_DeleteContext(glContext);

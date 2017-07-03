@@ -14,13 +14,12 @@
                     "-std=c++11",
                     "main.cpp",
                     "-o", "Builds/Linux_Build/engine",
-                    "-lmingw32",
                     "-lGL",
                     "-lGLEW",
                     "-lGLU",
                     "-lSDL2main",
                     "-lSDL2",
-                    "-lSDL_image",
+                    "-lSDL2_image",
                     "-lSDL2_ttf"
                 ]
             }
@@ -37,13 +36,12 @@
                     "-std=c++11",
                     "main.cpp",
                     "-o", "Builds/Mac_Build/engine",
-                    "-lmingw32",
                     "-lGL",
                     "-lGLEW",
                     "-lGLU",
                     "-lSDL2main",
                     "-lSDL2",
-                    "-lSDL_image",
+                    "-lSDL2_image",
                     "-lSDL2_ttf"
                 ]
             }
