@@ -1,0 +1,49 @@
+{
+    "version": "0.1.0",
+    "command": "g++",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "linux": {
+        "tasks": [
+            {
+                "taskName": "Build",
+                "suppressTaskName": true,
+                "isBuildCommand": true,
+                "args": [
+                    "-g",
+                    "-std=c++11",
+                    "main.cpp",
+                    "-o", "Builds/Linux_Build/engine"
+                ]
+            }
+        ]
+    },
+    "osx": {
+        "tasks": [
+            {
+                "taskName": "Build",
+                "isBuildCommand": true,
+                "args": [
+                    "-g",
+                    "-std=c++11",
+                    "main.cpp",
+                    "-o", "Builds/Linux_Build/engine"
+                ]
+            }
+        ]
+    },
+    "windows": {
+        "tasks": [
+            {
+                "taskName": "Build",
+                "isBuildCommand": true,
+                "args": [
+                    "-g",
+                    "-std=c++11",
+                    "main.cpp",
+                    "-o", "Builds/Linux_Build/engine"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/Builds/Linux_Build/engine",
+            "preLaunchTask": "Build",
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "linux": {
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            "osx": {
+                "program": "${workspaceRoot}/Builds/Mac_Build/engine",
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceRoot}/Builds/Win_Build/engine",
+                "miDebuggerPath": "C:\\MinGw\\bin\\gdb.exe"
+            }
+        }
+    ]
+}
