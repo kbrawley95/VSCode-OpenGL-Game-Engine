@@ -1,4 +1,4 @@
-# VSCode-OpenGL-Game-Engine
+# VSCode OpenGL Game Engine
 Repo containing the source from my OpenGL Game Engine tutorials using SDL &amp; Visual Studio Code
 
 ## Dependecies
@@ -19,8 +19,7 @@ Sudo apt-get update && sudo apt-get upgrade -y
 #### MacOs: 
 
 #### Windows: 
-
-[Latest Installers](https://sourceforge.net/projects/mingw/files/latest/download?source=files)
+In order to execute our code on windows, we will require GNU-like utilities. This contains numerous compilers classed as the **GNU Compiler Collection (GCC)** and their respective debuggers. Windows does not contain these tools as standard. Fortunately, we can install a minimised version of GNU called **Minimalist GNU for Windows** ([MinGW](https://sourceforge.net/projects/mingw/files/latest/download?source=files)).
 
 
 
@@ -45,6 +44,8 @@ Sudo apt-get install libsdl2{,-mixer,-image,-ttf}-dev
 On Mac OS X, install SDL2 via Homebrew like so: brew install sdl2{,_image,_ttf,_mixer}
 
 #### Windows: 
+
+
 
 [SDL2 Headers](http://libsdl.org/download-2.0.php)
 
