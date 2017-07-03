@@ -27,7 +27,7 @@
                     "-g",
                     "-std=c++11",
                     "main.cpp",
-                    "-o", "Builds/Linux_Build/engine"
+                    "-o", "Builds/Mac_Build/engine"
                 ]
             }
         ]
@@ -41,7 +41,7 @@
                     "-g",
                     "-std=c++11",
                     "main.cpp",
-                    "-o", "Builds/Linux_Build/engine"
+                    "-o", "Builds/Win_Build/engine"
                 ]
             }
         ]
