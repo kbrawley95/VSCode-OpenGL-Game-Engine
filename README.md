@@ -3,6 +3,8 @@ Repo containing the source from my OpenGL Game Engine tutorials using SDL &amp; 
 
 # Table of Contents
 1. [Dependencies](#dependencies)
+    1. [MinGW/GCC](#gcc)
+    2. [SDL2](#sdl)
 2. [Documentation](#documentation)
 
 ## Required Tools
@@ -17,7 +19,7 @@ Repo containing the source from my OpenGL Game Engine tutorials using SDL &amp; 
 
 ## Dependencies <a name="dependencies"></a>
 
-### 1. MinGW/GNU Compiler Collection (GCC)
+### 1. MinGW/GNU Compiler Collection (GCC) <a name="gcc"></a>
 #### Linux: Debian & Ubuntu 14.04 and above: 
 
 ```
@@ -45,7 +47,7 @@ In order to execute our code on windows, we will require GNU-like utilities. Thi
 
 
 
-### 2. SDL
+### 2. SDL <a name ="sdl"></a>
 #### Linux: Debian & Ubuntu 14.04 and above: 
 
 ```
