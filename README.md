@@ -1,7 +1,7 @@
 # VSCode OpenGL Game Engine
 Repo containing the source from my OpenGL Game Engine tutorials using SDL &amp; Visual Studio Code
 
-## Dependecies
+## Dependencies
 
 ### 1. MinGW/GNU Compiler Collection (GCC)
 #### Linux: Debian & Ubuntu 14.04 and above: 
@@ -49,3 +49,13 @@ On Mac OS X, install SDL2 via Homebrew like so: brew install sdl2{,_image,_ttf,_
 
 [SDL2 Headers](http://libsdl.org/download-2.0.php)
 
+
+## Documentation
+For more information on the materials provided, refer to the sources below:
+
+* VS Portable: http://gareth.flowers/vscode-portable/
+* MinGW (Minimalist GNU for Windows): http://mingw.org/
+* Debugging: http://code.visualstudio.com/docs/editor/debugging
+* Integrated Terminal: https://code.visualstudio.com/docs/editor/integrated-terminal
+* Tasks: http://code.visualstudio.com/docs/editor/tasks
+* OpenGL Documentation: https://www.opengl.org/
