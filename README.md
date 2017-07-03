@@ -5,7 +5,7 @@ Repo containing the source from my OpenGL Game Engine tutorials using SDL &amp; 
 
 1. [Visual Studio Code](https://code.visualstudio.com/)
 2. [Git/Github](https://github.com/)
-3. (Optional) [Vmware Player Virtual Machine](https://code.visualstudio.com/) for testing your code on different operating systems.
+3. (Optional) [Vmware Player Virtual Machine](https://www.vmware.com/products/player/playerpro-evaluation.html) for testing your code on different operating systems.
 
 
 ## Dependencies
