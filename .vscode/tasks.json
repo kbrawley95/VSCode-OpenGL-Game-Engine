@@ -13,7 +13,15 @@
                     "-g",
                     "-std=c++11",
                     "main.cpp",
-                    "-o", "Builds/Linux_Build/engine"
+                    "-o", "Builds/Linux_Build/engine",
+                    "-lmingw32",
+                    "-lGL",
+                    "-lGLEW",
+                    "-lGLU",
+                    "-lSDL2main",
+                    "-lSDL2",
+                    "-lSDL_image",
+                    "-lSDL2_ttf"
                 ]
             }
         ]
@@ -22,12 +30,21 @@
         "tasks": [
             {
                 "taskName": "Build",
+                "suppressTaskName": true,
                 "isBuildCommand": true,
                 "args": [
                     "-g",
                     "-std=c++11",
                     "main.cpp",
-                    "-o", "Builds/Linux_Build/engine"
+                    "-o", "Builds/Mac_Build/engine",
+                    "-lmingw32",
+                    "-lGL",
+                    "-lGLEW",
+                    "-lGLU",
+                    "-lSDL2main",
+                    "-lSDL2",
+                    "-lSDL_image",
+                    "-lSDL2_ttf"
                 ]
             }
         ]
@@ -36,12 +53,22 @@
         "tasks": [
             {
                 "taskName": "Build",
+                "suppressTaskName": true,
                 "isBuildCommand": true,
                 "args": [
                     "-g",
                     "-std=c++11",
                     "main.cpp",
-                    "-o", "Builds/Linux_Build/engine"
+                    "-o", "Builds/Win_Build/engine",
+                    "-lmingw32",
+                    "-lopengl32",
+                    "-lglew32",
+                    "-lglew32mx",
+                    "-lglu32",
+                    "-lSDL2main",
+                    "-lSDL2",
+                    "-lSDL2_image",
+                    "-lSDL2_ttf"
                 ]
             }
         ]
