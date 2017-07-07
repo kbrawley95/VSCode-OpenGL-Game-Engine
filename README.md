@@ -9,7 +9,7 @@ This repo contains the source from my OpenGL Game Engine tutorials using SDL &am
 2. [Application Dependencies](#dependencies)
     1. [MinGW/GCC](#gcc)
     2. [SDL2](#sdl)
-    3. [OpenGL])(#opengl)
+    3. [OpenGL](#opengl)
 3. [Documentation](#documentation)
 
 ## Required Tools <a name="tools"></a>
@@ -21,7 +21,7 @@ This repo contains the source from my OpenGL Game Engine tutorials using SDL &am
 4. [Windows](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 4. [Linux (Ubuntu)](https://www.ubuntu.com/download/desktop)
 
-
+https://github.com/kbrawley95/VSCode-OpenGL-Game-Engine
 ## Application Dependencies <a name="dependencies"></a>
 
 ### 1. MinGW/GNU Compiler Collection (GCC) <a name="gcc"></a>
@@ -45,14 +45,6 @@ My knowledge of MacOS/OSX is limited. However, this github repo detailing an ins
 
 #### Windows: 
 Windows does not contain these tools as standard. Fortunately, we can install a minimised version of GNU called **Minimalist GNU for Windows** ([MinGW](https://sourceforge.net/projects/mingw/files/latest/download?source=files)). This will supply all the dependecies, and tools to simulate a GNU-like environment, add these tools to your system path, and execute them through the **Comand Line Interface (CLI)** as you would on linux.
-
-
-
-
-
-
-
-
 
 
 
