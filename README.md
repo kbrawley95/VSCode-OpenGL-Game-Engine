@@ -52,7 +52,7 @@ In order to execute our code on windows, we will require GNU-like utilities. Thi
 #### Linux: Debian & Ubuntu 14.04 and above: 
 
 ```
-Sudo apt-get install libsdl2{,-mixer,-image,-ttf}-dev
+sudo apt-get install libsdl2{,-mixer,-image,-ttf}-dev
 ```
 **Note: Ubuntu 14.04 currently has broken header file in the SDL2 package that disables people from compiling against it. It will be needed to either patch the header file or install SDL2 from source.**
 
