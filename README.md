@@ -9,6 +9,7 @@ This repo contains the source from my OpenGL Game Engine tutorials using SDL &am
 2. [Application Dependencies](#dependencies)
     1. [MinGW/GCC](#gcc)
     2. [SDL2](#sdl)
+    3. [OpenGL])(#opengl)
 3. [Documentation](#documentation)
 
 ## Required Tools <a name="tools"></a>
@@ -76,6 +77,42 @@ On Mac OS X, install SDL2 via Homebrew like so: brew install sdl2{,_image,_ttf,_
 
 
 [SDL2 Headers](http://libsdl.org/download-2.0.php)
+
+
+
+### 3. OPENGL <a name ="opengl"></a>
+
+The **Open Graphics Library (OpenGL)** is a specification of various operations (functions) that facilite the rendering and manipulation of images, and other graphical niceties on our displays. The functions and the specification as a whole is maintain by the Khronos Group; a body of various industry experts, GPU manufactors, and related companies that collaborate to continually improve upon the capabilties of OpenGL -and the core requirements that supporting hardware should implement. The key word there is 'should'. 
+
+As OpenGL is **NOT** actually set of classes/libaries or **Application Programming Interface (API)**, it falls upon the Graphics Card Manufactors to implement the defined requirements i.e. they create the libraries, and classes that help you to run your favourite games via software called drivers. Installing these drivers will allow you to access core OpenGL functuality, and any further extensions to the specification which were supported by your Graphics card at the time of release. 
+
+#### Linux: Debian & Ubuntu 14.04 and above: 
+
+Linux distributions utilise the an open-source implementation of OpenGL called Mesa. Mesa provides drivers that will enable you to utilise the core OpenGL features supported by your gpu: 
+
+```
+sudo apt-get install libgl1-mesa-dri:i386, libgl1-mesa-glx:i386, libc6:i386
+```
+
+**NB:**: Your properity drivers downloaded during your installation of your given Linux distro maybe enough to start using OpenGL operation in your code. But I'd advice installing these drivers to save further complication down the road.
+
+
+
+
+#### MacOs: ?
+
+
+#### Windows:
+
+On Windows the setup is much easily. Simply install the latest graphics drivers supported by your current graphics card/GPU. Clicking the relevant manufactor below will take your to the necessary download pages:
+
+1. [AMD]()
+2. [Intel)()
+3. [Nvidia]()
+
+
+
+
 
 
 ## Documentation <a name="documentation"></a>
