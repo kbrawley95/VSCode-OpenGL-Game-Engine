@@ -19,12 +19,11 @@ This repo contains the source from my OpenGL Game Engine tutorials using SDL &am
 1. [Visual Studio Code](https://code.visualstudio.com/)
 2. [Git/Github](https://desktop.github.com/)
 3. (Optional) [Vmware Player Virtual Machine](https://www.vmware.com/products/player/playerpro-evaluation.html) for testing your code on different operating systems.
-## Virtual Machines Images
-4. [Windows](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
-4. [Linux (Ubuntu)](https://www.ubuntu.com/download/desktop)
+4. [Windows (VM Image)](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
+5. [Linux (Ubuntu VM Image)](https://www.ubuntu.com/download/desktop)
 
 https://github.com/kbrawley95/VSCode-OpenGL-Game-Engine
-## Application Dependencies <a name="dependencies"></a>
+# Application Dependencies <a name="dependencies"></a>
 
 ## 1. MinGW/GNU Compiler Collection (GCC) <a name="gcc"></a>
 
