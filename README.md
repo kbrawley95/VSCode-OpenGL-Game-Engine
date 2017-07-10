@@ -137,7 +137,6 @@ For more information on the materials provided, refer to the sources below:
 * MinGW (Minimalist GNU for Windows): http://mingw.org/
 
 ### OpenGL & Related Libraries
-
 * Bullet Physics Documentation: https://github.com/bulletphysics/bullet3
 * GLEW: https://github.com/nigels-com/glew#authors
 * GLM: http://glm.g-truc.net/0.9.5/api/index.html
@@ -147,7 +146,6 @@ For more information on the materials provided, refer to the sources below:
 
 ### Visual Studio Code
 * VS Portable: http://gareth.flowers/vscode-portable/
-
 * Debugging: http://code.visualstudio.com/docs/editor/debugging
 * Integrated Terminal: https://code.visualstudio.com/docs/editor/integrated-terminal
 * Tasks: http://code.visualstudio.com/docs/editor/tasks
