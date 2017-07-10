@@ -108,14 +108,14 @@ The OpenGL Extension Wrangler Library
 
 [Download](http://glew.sourceforge.net/install.html)
 
-## 4. GLM <a name ="glm"></a>
+## 5. GLM <a name ="glm"></a>
 
 GLSL + Optional features = OpenGL Mathematics (GLM)
 A C++ mathematics library for graphics programming. 
 
 [Download](http://glm.g-truc.net/0.9.5/index.html)
 
-## 5. OPENAL <a name ="openal"></a>
+## 6. OPENAL <a name ="openal"></a>
 
 OpenAL is a cross-platform 3D audio API appropriate for use with gaming applications and many other types of audio applications.
 
@@ -123,7 +123,7 @@ The library models a collection of audio sources moving in a 3D space that are h
 
 [Download](http://www.openal.org/)
 
-## 6. BULLET <a name ="bullet"></a>
+## 7. BULLET <a name ="bullet"></a>
 
 Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.
 
