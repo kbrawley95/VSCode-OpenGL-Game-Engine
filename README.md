@@ -10,6 +10,9 @@ This repo contains the source from my OpenGL Game Engine tutorials using SDL &am
     1. [MinGW/GCC](#gcc)
     2. [SDL2](#sdl)
     3. [OpenGL](#opengl)
+    4. [GLM](#glm)
+    5. [OpenAL](#openal)
+    6. [Bullet](#bullet)
 3. [Documentation](#documentation)
 
 ## Required Tools <a name="tools"></a>
@@ -66,9 +69,7 @@ On Mac OS X, install SDL2 via Homebrew like so: brew install sdl2{,_image,_ttf,_
 
 #### Windows: 
 
-
-
-[SDL2 Headers](http://libsdl.org/download-2.0.php)
+The [SDL2 Headers](http://libsdl.org/download-2.0.php) can be fetched directly from the SDL website. 
 
 
 
@@ -99,12 +100,29 @@ sudo apt-get install libgl1-mesa-dri:i386, libgl1-mesa-glx:i386, libc6:i386
 On Windows the setup is much easily. Simply install the latest graphics drivers supported by your current graphics card/GPU. Clicking the relevant manufactor below will take your to the necessary download pages:
 
 1. [AMD]()
-2. [Intel)()
+2. [Intel]()
 3. [Nvidia]()
 
+### 4. GLM <a name ="glm"></a>
 
+GLSL + Optional features = OpenGL Mathematics (GLM)
+A C++ mathematics library for graphics programming. 
 
+[Download](http://glm.g-truc.net/0.9.5/index.html)
 
+### 5. OPENAL <a name ="openal"></a>
+
+OpenAL is a cross-platform 3D audio API appropriate for use with gaming applications and many other types of audio applications.
+
+The library models a collection of audio sources moving in a 3D space that are heard by a single listener somewhere in that space. The basic OpenAL objects are a Listener, a Source, and a Buffer. There can be a large number of Buffers, which contain audio data. Each buffer can be attached to one or more Sources, which represent points in 3D space which are emitting audio. There is always one Listener object (per audio context), which represents the position where the sources are heard -- rendering is done from the perspective of the Listener.
+
+[Download](http://www.openal.org/)
+
+### 6. BULLET <a name ="bullet"></a>
+
+Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.
+
+[Download](https://github.com/bulletphysics/bullet3/releases)
 
 
 ## Documentation <a name="documentation"></a>
