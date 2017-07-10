@@ -104,7 +104,9 @@ On Windows the setup is much easily. Simply install the latest graphics drivers 
 
 ## 4. GLEW <a name ="glm"></a>
 
-http://glew.sourceforge.net/install.html
+The OpenGL Extension Wrangler Library
+
+[Download](http://glew.sourceforge.net/install.html)
 
 ## 4. GLM <a name ="glm"></a>
 
@@ -131,12 +133,21 @@ Bullet Physics SDK: real-time collision detection and multi-physics simulation f
 # Documentation <a name="documentation"></a>
 For more information on the materials provided, refer to the sources below:
 
-* VS Portable: http://gareth.flowers/vscode-portable/
+### Minimalist GNU for Windows
 * MinGW (Minimalist GNU for Windows): http://mingw.org/
+
+### OpenGL & Related Libraries
+
+* Bullet Physics Documentation: https://github.com/bulletphysics/bullet3
+* GLEW: https://github.com/nigels-com/glew#authors
+* GLM: http://glm.g-truc.net/0.9.5/api/index.html
+* OpenAL: http://www.openal.org/documentation/
+* OpenGL: https://www.opengl.org/
+* SDL2: http://wiki.libsdl.org/FrontPage
+
+### Visual Studio Code
+* VS Portable: http://gareth.flowers/vscode-portable/
+
 * Debugging: http://code.visualstudio.com/docs/editor/debugging
 * Integrated Terminal: https://code.visualstudio.com/docs/editor/integrated-terminal
 * Tasks: http://code.visualstudio.com/docs/editor/tasks
-* OpenGL Documentation: https://www.opengl.org/
-* Bullet Physics Documentation: https://github.com/bulletphysics/bullet3
-* Bullet Physics Documentation: https://github.com/bulletphysics/bullet3
-
