@@ -97,9 +97,9 @@ sudo apt-get install libgl1-mesa-dri:i386, libgl1-mesa-glx:i386, libc6:i386
 
 On Windows the setup is much easily. Simply install the latest graphics drivers supported by your current graphics card/GPU. Clicking the relevant manufactor below will take your to the necessary download pages:
 
-1. [AMD]()
-2. [Intel]()
-3. [Nvidia]()
+1. [AMD](https://www.amd.com/en/support)
+2. [Intel](https://www.intel.com/content/www/us/en/support/articles/000005629/graphics.html)
+3. [Nvidia](https://developer.nvidia.com/opengl)
 
 
 ## 4. GLEW <a name ="glm"></a>
